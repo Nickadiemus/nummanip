@@ -7,7 +7,7 @@ func Add(a, b int) int {
 func AddMany(numbers ...int) int {
 	var sum int
 	for _, number := range numbers {
-		sum = +number
+		sum += number
 	}
 	return sum
 }
